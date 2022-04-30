@@ -6,6 +6,7 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 // refer to: https://blog.csdn.net/qq_37388044/article/details/110654951
 
