@@ -1,0 +1,19 @@
+[34mlocal machine ---------------> remote http server(bbt.sounder.fm:80)
+[0mGET /bbt/nowtime HTTP/1.1
+Host: bbt.sounder.fm:80
+
+[32mlocal machine <--------------- remote http server(bbt.sounder.fm:80)
+[0mHTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Wed, 27 Apr 2022 16:11:42 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://bbt.sounder.fm:443/bbt/nowtime
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+</body>
+</html>

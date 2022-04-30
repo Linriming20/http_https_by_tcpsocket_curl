@@ -1,0 +1,20 @@
+[34mlocal machine ---------------> remote http server(www.webxml.com.cn:80)
+[0mPOST /webservices/qqOnlineWebService.asmx/qqCheckOnline HTTP/1.1
+Host: www.webxml.com.cn:80
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 17
+Connection: keep-alive
+
+qqCode=2607950424
+[32mlocal machine <--------------- remote http server(www.webxml.com.cn:80)
+[0mHTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Length: 88
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/7.5
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+Date: Wed, 27 Apr 2022 16:46:06 GMT
+
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://WebXml.com.cn/">Y</string>
