@@ -15,6 +15,7 @@ todo.
 - [C语言实现HTTP的GET和POST请求\_一路奔跑94的博客-CSDN博客\_c post\*](https://blog.csdn.net/weixin_37569048/article/details/91047343)
 - [c语言实现http下载器\_锅锅是锅锅的博客-CSDN博客\_http下载\*](https://blog.csdn.net/u010835747/article/details/119149276)
 - [curl源码编译安装\_linux\_c\_coding\_man的博客-CSDN博客\_curl编译](https://blog.csdn.net/peng314899581/article/details/88845213)
+- [cURL支持https--移植--集成mbedTLS\_skyblue535的博客-CSDN博客\_https移植](https://blog.csdn.net/skyblue535/article/details/78207215)
 - [C 语言使用Libcurl \_curl 发送数据 （可以设置http header）\_Kolde的博客-CSDN博客\_libcurl 设置header](https://blog.csdn.net/abcdu1/article/details/84573000)
 - [libcurl 函数之 curl\_easy\_setopt （CURLOPT\_WRITEFUNCTION） 之 写回调函数的设置\_xj9120的博客-CSDN博客\_curl 回调](https://blog.csdn.net/xj9120/article/details/97271852)
 
