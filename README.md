@@ -18,6 +18,8 @@ todo.
 - [cURL支持https--移植--集成mbedTLS\_skyblue535的博客-CSDN博客\_https移植](https://blog.csdn.net/skyblue535/article/details/78207215)
 - [C 语言使用Libcurl \_curl 发送数据 （可以设置http header）\_Kolde的博客-CSDN博客\_libcurl 设置header](https://blog.csdn.net/abcdu1/article/details/84573000)
 - [libcurl 函数之 curl\_easy\_setopt （CURLOPT\_WRITEFUNCTION） 之 写回调函数的设置\_xj9120的博客-CSDN博客\_curl 回调](https://blog.csdn.net/xj9120/article/details/97271852)
+- [mbedtls基础及其应用\_@嵌入式系统的博客-CSDN博客\_mbedtls](https://blog.csdn.net/chengjunchengjun/article/details/111348713)
+- [mbed TLS 简明教程(二)\_程序手艺人的博客-CSDN博客\_mbedtls\_net\_connect](https://blog.csdn.net/z2066411585/article/details/79179906)
 
 
 ### 附录（demo目录架构）

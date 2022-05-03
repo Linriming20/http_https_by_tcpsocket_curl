@@ -16,3 +16,10 @@ make DESTDIR=$PWD/_install install
 - **示例：**
 
 https示例参考`mbedtls-3.0.0/programs/ssl/ssl_client1.c`，其他示例参考`mbedtls-3.0.0/programs/`子目录下的其他程序。
+
+## 2、demo文件说明
+
+- `include`：ubuntu16.04 x86_64环境下编译得到的mbedTLS头文件；
+- `lib`：ubuntu16.04 x86_64环境下编译得到的mbedTLS静态库文件；
+- `GET/ssl_client1.c`：拷贝自``mbedtls-3.0.0/programs/ssl/ssl_client1.c`;
+- `GET/sample.c`：基于`GET/ssl_client1.c`的自定义修改；
