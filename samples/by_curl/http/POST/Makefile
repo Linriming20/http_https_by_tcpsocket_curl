@@ -2,7 +2,7 @@ all: a.out
 
 CC := gcc
 CFLAGS := -I../../include
-LDFLAGS := -lcurl -L../../lib
+LDFLAGS := -lcurl -lmbedx509 -lmbedtls -lmbedcrypto -L../../lib -L../../../by_tcp_socket/https/lib
 
 LDFLAGS += -pthread -lz
 

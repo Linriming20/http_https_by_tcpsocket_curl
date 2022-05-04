@@ -1,10 +1,8 @@
 all: a1.out a2.out
 
 CC := gcc
-CFLAGS := -I../../include
-LDFLAGS := -lcurl -lmbedx509 -lmbedtls -lmbedcrypto -L../../lib -L../../../by_tcp_socket/https/lib
-
-LDFLAGS += -pthread -lz
+CFLAGS :=
+LDFLAGS :=
 
 a1.out : sample1.c
 	$(CC) $^ $(CFLAGS) $(LDFLAGS) -o $@
