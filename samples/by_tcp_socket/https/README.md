@@ -23,3 +23,4 @@ https示例参考`mbedtls-3.0.0/programs/ssl/ssl_client1.c`，其他示例参考
 - `lib`：ubuntu16.04 x86_64环境下编译得到的mbedTLS静态库文件；
 - `GET/ssl_client1.c`：拷贝自``mbedtls-3.0.0/programs/ssl/ssl_client1.c`;
 - `GET/sample.c`：基于`GET/ssl_client1.c`的自定义修改；
+- `POST/sample.c`：基于`GET/sample.c`的自定义修改；

@@ -1,0 +1,29 @@
+
+  . Seeding the random number generator... ok
+  . Loading the CA root certificate ... ok (0 skipped)
+  . Connecting to tcp/soft-saas.cloudlinks.cn/8089... ok
+  . Setting up the SSL/TLS structure... ok
+  . Performing the SSL/TLS handshake...ssl_tls.c:2133: x509_verify_cert() returned -9984 (-0x2700)
+ ok
+  . Verifying peer X.509 certificate... failed
+  ! The certificate is not correctly signed by the trusted CA
+
+  > Write to server: 189 bytes written
+
+POST /softencryption/getkeyinfo HTTP/1.1
+Host: soft-saas.cloudlinks.cn:8089
+Content-Type: application/json
+Content-Length: 57
+
+{
+   "key":"JW161fa7e6-4237-4360-9c44-d67fe0e422dd"
+}
+  < Read from server:HTTP/1.1 200 OK
+Date: Wed, 04 May 2022 07:17:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 270
+Connection: keep-alive
+Set-Cookie: tgw_l7_route=8b1e33304c27c46266bc239c0617784c; Expires=Wed, 04-May-2022 07:17:55 GMT; Path=/
+
+{"requestId":"511a2bfa-4266-4a89-b3a0-ca481e848cf0","code":0,"msg":"Success","data":{"key":"JW161fa7e6-4237-4360-9c44-d67fe0e422dd","allocCnt":300,"appliedCnt":162,"confirmedCnt":0,"status":1,"agentName":"欧耶科技","funcDescs":["IPC摄像头"],"resolution":"1080P"}}ssl_msg.c:3758: mbedtls_ssl_handle_message_type() returned -30848 (-0x7880)
+ssl_msg.c:5270: mbedtls_ssl_read_record() returned -30848 (-0x7880)
