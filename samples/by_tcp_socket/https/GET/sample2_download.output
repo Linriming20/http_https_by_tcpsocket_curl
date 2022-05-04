@@ -1,0 +1,26 @@
+
+  . Seeding the random number generator... ok
+  . Loading the CA root certificate ... ok (0 skipped)
+  . Connecting to tcp/strace.io/443... ok
+  . Setting up the SSL/TLS structure... ok
+  . Performing the SSL/TLS handshake...ssl_tls.c:2133: x509_verify_cert() returned -9984 (-0x2700)
+ ok
+  . Verifying peer X.509 certificate... failed
+  ! The certificate is not correctly signed by the trusted CA
+
+  > Write to server: 66 bytes written
+
+GET /files/4.9/strace-4.9.tar.xz HTTP/1.1
+Host: strace.io:443
+
+  < Read from server:HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Wed, 04 May 2022 10:16:03 GMT
+Content-Type: application/octet-stream
+Content-Length: 521728
+Last-Modified: Fri, 15 Aug 2014 13:14:15 GMT
+Connection: keep-alive
+ETag: "53ee07a7-7f600"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytesssl_msg.c:3758: mbedtls_ssl_handle_message_type() returned -30848 (-0x7880)
+ssl_msg.c:5270: mbedtls_ssl_read_record() returned -30848 (-0x7880)
