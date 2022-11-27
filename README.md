@@ -26,6 +26,7 @@ todo.
 - [libcurl 函数之 curl\_easy\_setopt （CURLOPT\_WRITEFUNCTION） 之 写回调函数的设置\_xj9120的博客-CSDN博客\_curl 回调](https://blog.csdn.net/xj9120/article/details/97271852)
 - [mbedtls基础及其应用\_@嵌入式系统的博客-CSDN博客\_mbedtls](https://blog.csdn.net/chengjunchengjun/article/details/111348713)
 - [mbed TLS 简明教程(二)\_程序手艺人的博客-CSDN博客\_mbedtls\_net\_connect](https://blog.csdn.net/z2066411585/article/details/79179906)
+- [c用libcurl库实现https client实现get、post、文件上传、文件下载\_xiaoyaoyou.xyz的博客-CSDN博客](https://blog.csdn.net/weixin_39510813/article/details/88978941)
 
 
 ### 附录（demo目录架构）
